@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eafab9a3c91bff49a71e1bf71793a78, type: 3}
+  m_Name: Rock
+  m_EditorClassIdentifier: 
+  itemName: "\u041A\u0430\u043C\u0435\u043D\u044C"
+  icon: {fileID: 21300000, guid: 846686013b2a3174dba90847503b7c55, type: 3}
+  description: "\u0437\u0430\u0447\u0435\u043C \u0442\u044B \u044D\u0442\u043E \u0432\u043E\u043E\u0431\u0449\u0435
+    \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u0448\u044C ?"
+  itemPrefab: {fileID: 859897853333376576, guid: 9a2e716d788ac6e4bbb84a4dbc935fe5, type: 3}
+  goMechanics: {fileID: 0}
+  haveStats: 1
+  damage: 0
+  maxHp: 10
+  speed: 0

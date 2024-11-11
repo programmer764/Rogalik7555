@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eafab9a3c91bff49a71e1bf71793a78, type: 3}
+  m_Name: Circle
+  m_EditorClassIdentifier: 
+  itemName: "\u0421\u0444\u0435\u0440\u0430 \u043D\u0435\u043A\u0440\u043E\u043C\u0430\u043D\u0442\u0430"
+  icon: {fileID: -430992898358896206, guid: 1a9498390ff085147a2d06689f7be153, type: 3}
+  description: 
+  itemPrefab: {fileID: 5635525971482667291, guid: 220f45a1165340c41bb6c7a7d6ba4c08, type: 3}
+  goMechanics: {fileID: 0}
+  goMechanics2: {fileID: 1659740157426327616, guid: ec22ba5787f02d145811fffb353c8dfb, type: 3}
+  haveStats: 0
+  damage: 0
+  maxHp: 0
+  speed: 0

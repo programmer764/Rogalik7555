@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eafab9a3c91bff49a71e1bf71793a78, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  itemName: DraconBow+16
+  icon: {fileID: -1019287073827455614, guid: 12d03b2710dc1af4da22c6072ba7b0a1, type: 3}
+  description: "\u041B\u0443\u043A \u043F\u043E\u0447\u0442\u0438 \u043A\u0430\u043A
+    \u0438\u0437 Linage2"
+  itemPrefab: {fileID: 6176872460365251633, guid: 422dca8d3a59bd844b2f7765a6263988, type: 3}
+  goMechanics: {fileID: 3733731389101206225, guid: e7ba745043fbdd349941be8a1fbef767, type: 3}
+  haveStats: 0
+  damage: 0
+  maxHp: 0
+  speed: 0
