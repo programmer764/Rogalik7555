@@ -105,11 +105,11 @@ public class PlayerController : MonoBehaviour
             // Получаем позицию мыши в мировых координатах
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             // Находим направление от позиции игрока до позиции мыши
-            direction = (mousePosition - (Vector2)transform.position).normalized;
+            direction = (mousePosition - (Vector2)transform.position).normalized;//генерация угла для дробовика
 
 
-            // Если нажата кнопка мыши, стреляем
-            if (Input.GetButtonDown("Fire1"))
+        // Если нажата кнопка мыши, стреляем
+        if (Input.GetButtonDown("Fire1"))
             {
             if (_weapon == 1 &&_player.canShoot)
                 Shoot1(); _bow.Play("Bow");
