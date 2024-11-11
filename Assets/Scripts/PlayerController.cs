@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
             // ѕолучаем позицию мыши в мировых координатах
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             // Ќаходим направление от позиции игрока до позиции мыши
-            direction = (mousePosition - (Vector2)transform.position).normalized;//генераци€ угла дл€ дробовика
+            direction = (mousePosition - (Vector2)transform.position).normalized;//генераци€ 
 
 
         // ≈сли нажата кнопка мыши, стрел€ем
