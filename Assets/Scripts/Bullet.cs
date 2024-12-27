@@ -28,7 +28,7 @@ private void Start()
         // Получаем текущий слой у пули
         int bulletLayer = LayerMask.NameToLayer("Bullet");
 
-        // Настройка слоя игнорирования коллизий между объектами с одинаковым слоем
+        // Настройка слоя игнорирования коллизий между объектами с одинаковым слоем 666
         Physics2D.IgnoreLayerCollision(bulletLayer, bulletLayer);
         IEnumerator DelayedMethod(float delayInSeconds)
         {            
